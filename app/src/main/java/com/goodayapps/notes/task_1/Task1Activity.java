@@ -1,12 +1,12 @@
 package com.goodayapps.notes.task_1;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.text.Editable;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.goodayapps.notes.R;
 
@@ -15,6 +15,8 @@ public class Task1Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        // Говорим Activity, что файл верстки с названием activity_task1
+        // будет версткой для этой Activity
         setContentView(R.layout.activity_task1);
 
         // Ищем кнопку и записываем в переменную

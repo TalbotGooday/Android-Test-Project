@@ -14,5 +14,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="TASK 1" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/task_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TASK 2" />
     </LinearLayout>
 </ScrollView>
