@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Notes">
         <activity
-            android:name=".text_list.TextListActivity"
+            android:name=".task_1.Task1Activity"
             android:exported="true" />
         <activity
             android:name=".start_screen.StartActivity"
@@ -21,9 +21,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".notes_screen.NotesActivity"
-            android:exported="true" />
     </application>
 
 </manifest>
