@@ -1,6 +1,7 @@
 package com.goodayapps.notes.task_2;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ImageView;
@@ -17,13 +18,16 @@ public class Task2Activity extends AppCompatActivity {
 
     // Находим кнопку для загрузки
     ImageButton load;
+
     // Находим поле для ввода
     EditText input;
+
     // Находим ImageView куда будем грузить изображение
     ImageView preview1;
     ImageView preview2;
     ImageView preview3;
     ImageView preview4;
+
 
     List<ImageView> previews = new ArrayList<>();
 
